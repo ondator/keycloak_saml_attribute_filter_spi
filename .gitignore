@@ -1,0 +1,7 @@
+**/.idea
+**/.vscode
+**/out
+**/target
+**/.DS_Store
+**/*.iml
+**/.gradle

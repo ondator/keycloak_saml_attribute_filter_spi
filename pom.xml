@@ -10,9 +10,9 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>ru.ondator</groupId>
 
-    <artifactId>keycloak-custom-group-filter-spi</artifactId>
-    <name>keycloak-custom-group-filter-spi</name>
-    <description>mapper for custom group validation</description>
+    <artifactId>keycloak-saml-attribute-filter-spi</artifactId>
+    <name>keycloak-saml-attribute-filter-spi</name>
+    <description>mapper for custom saml attribute validation</description>
     <packaging>jar</packaging>
 
     <licenses>

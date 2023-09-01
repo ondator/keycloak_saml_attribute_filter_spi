@@ -43,6 +43,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: target/
-          asset_name: ${{ github.ref_name }}.zip
+          asset_path: target/keycloak-saml-attribute-filter-spi-18.0.2.jar
+          asset_name: keycloak-saml-attribute-filter-spi-${{ github.ref_name }}.jar
           asset_content_type: application/zip
